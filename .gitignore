@@ -1,3 +1,6 @@
+.idea/GoLangAPI.iml
+.idea/modules.xml
+.idea/vcs.xml
 # Default ignored files
 /shelf/
 /workspace.xml
@@ -7,3 +10,4 @@
 /dataSources/
 /dataSources.local.xml
 .idea
+.idea/.gitignore
