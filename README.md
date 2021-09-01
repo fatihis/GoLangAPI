@@ -13,8 +13,6 @@ Simple REST API over CRUD Operations through MongoDB Atlas
 	github.com/mitchellh/mapstructure v1.4.1
 	go.mongodb.org/mongo-driver v1.7.1
 
-
-
 ### Executing program
 
 For Unix Users
@@ -28,7 +26,8 @@ For Unix Users
 $ go run ./main.go
 ```
 ## API ENDPOINTS
-
+### Postman Workspace
+https://www.postman.com/flight-geologist-71319485/workspace/fill-labs-public-repo/overview
 ### Get All Persons
 - Path : `/getAll`
 - Method: `GET`
@@ -69,4 +68,5 @@ Contributors names and contact info
 * 0.1
     * Initial Release
     * See [commit change]() or See [release history]()
+
 
