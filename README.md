@@ -27,6 +27,30 @@ For Unix Users
 ```
 $ go run ./main.go
 ```
+## API ENDPOINTS
+
+### Get All Persons
+- Path : `/getAll`
+- Method: `GET`
+
+### Create Post
+- Path : `/create`
+- Method: `POST`
+- Fields: `_id, FirstName, LastName, Email, Age`
+
+### Details a Post
+- Path : `/get/{id}`
+- Method: `GET`
+
+### Update Post
+- Path : `/update/{id}`
+- Method: `PUT`
+- Fields: `_id, FirstName, LastName, Email, Age`
+
+
+### Delete Post
+- Path : `/delete/{id}`
+- Method: `DELETE`
 
 
 ## Help
