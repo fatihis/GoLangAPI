@@ -16,6 +16,7 @@ type Person struct {
 func main() {
 	//Construct REST API with fiber infrastructure
 	app := fiber.New()
+
 	app.Get("/get/:id", getPerson)
 	app.Get("/getAll", getAllPersons)
 	app.Post("/create", createPerson)
