@@ -10,6 +10,8 @@ import (
 	"log"
 )
 
+
+/* !!!!THIS CLASS IS ONLY FOR DB TEST PURPOSES!!!! */
 type User struct {
 	_id       primitive.ObjectID
 	firstname string
